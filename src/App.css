@@ -1,0 +1,120 @@
+.flower {
+    display: flex;
+    justify-content: center;
+}
+
+.color-palette {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.color-swatch {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 9px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.color-swatch-active {
+    box-shadow: inset 0 0 15px #000000;
+    transition: all 0.2s;
+}
+
+.home-card-allcolor{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin: 26px auto;
+}
+
+.upload__button{
+    width: 40%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+}
+
+.cardhome{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(161, 158, 158, 0.2);
+    /* padding: 40px; */
+    margin: 10px;
+    color: #222;
+    margin-top: 180px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardnav{
+    background: #222;
+    height: 80px;
+    margin-top: -38px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.back-home{
+    padding: 40px;
+    font-size: 20px;
+    color: rgb(0, 68, 255);
+    font-weight: bolder;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.homepic{
+    max-width: 100%;
+    height: 100%;
+    gap: 1rem;
+    margin-top: -67px;
+    background: url("./photos/exterior.jpg") center top/cover no-repeat;  
+}
+
+.image-upload{
+    background-color: blue;
+    color: #fff;
+    width: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: 250px; */
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camera{
+    margin-top: 20px;
+    color: #333; 
+}
+
+.textmsg{
+    margin-left: 10px;
+}
+
+.or{
+    margin-left: 34%;
+    color: #444;
+}
+
+.navcolor{
+    color: #999;
+}
+
+.navlistcolor{
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    margin-right: 240px;
+}

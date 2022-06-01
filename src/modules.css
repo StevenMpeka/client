@@ -1,0 +1,61 @@
+.featured-module {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .featuredItem-module {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .featuredTitle-module{
+      font-size: 14px;
+      color: gray;
+  }
+  
+  .featuredMoneyContainer-module{
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .featuredMoney-module{
+      font-size: 20px;
+      font-weight: 400;
+  }
+  
+  .featuredMoneyRate-module{
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+  }
+  
+  .featuredIcon-module{
+      margin-left: 350px;
+      margin-top: 20px;
+      color: green;
+  }
+
+  .book-icon{
+      color: green;
+      margin-top: 2px;
+      margin-right: 5px;
+  }
+
+  .featuredSub-module{
+      display: flex;
+      flex-direction: row;
+      font-size: 16px;
+      padding: 10px;
+}
