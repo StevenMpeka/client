@@ -1608,12 +1608,69 @@ color: #fff;
 
 @media screen and (max-width: 350px){
     .container{
+        width: 100% !important;
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
 
     .nav__menu{
         padding: 2rem .25rem 4rem;
+    }
+
+    .cardhome{
+        width: 100% !important;
+        background-color: white;
+        margin: 10px;
+        margin-top: 70px;
+        color: #222;
+        overflow-x: hidden !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .grid{
+         gap: 1rem !important;
+        grid-template-columns: repeat(2, 2fr) !important;
+    }
+
+    .home-card-color{
+        max-width: 140px !important;
+        height: fit-content;
+        margin: 10px auto;
+    }
+
+    .back-home{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: small;
+    }
+
+    .or{
+        margin-left: auto;
+        margin-right: auto;
+        color: #444; 
+    }
+
+    .image-upload{
+        width: 80%;
+    }
+    p{
+        font-size: smaller;
+    }
+
+    .homepic{
+        width: 100% !important;
+        height: 100%;
+        gap: 1rem;
+        margin-top: -67px;
+        background: white;  
+    }
+
+    .spinner{
+        margin-left: 50% !important;
+        
     }
 
     .nav__list{
@@ -1671,6 +1728,125 @@ color: #fff;
     }
 }
 
+@media screen and (max-width: 375px){
+    .cardhome{
+        width: 100% !important;
+        background-color: white;
+        margin: 10px;
+        margin-top: 70px;
+        color: #222;
+        overflow-x: hidden !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .grid{
+         gap: 1rem !important;
+        grid-template-columns: repeat(2, 2fr) !important;
+    }
+
+    .home-card-color{
+        max-width: 140px !important;
+        height: fit-content;
+        margin: 10px auto;
+    }
+
+    .back-home{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: small;
+    }
+
+    .or{
+        margin-left: auto;
+        margin-right: auto;
+        color: #444; 
+    }
+
+    .image-upload{
+        width: 80%;
+    }
+    p{
+        font-size: smaller;
+    }
+
+    .homepic{
+        width: 100% !important;
+        height: 100%;
+        gap: 1rem;
+        margin-top: -67px;
+        background: white;  
+    }
+
+    .spinner{
+        margin-left: 50% !important;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 425px){
+    .cardhome{
+        width: 100% !important;
+        background-color: white;
+        margin: 10px;
+        margin-top: 70px;
+        color: #222;
+        overflow-x: hidden !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .grid{
+         gap: 1rem !important;
+        grid-template-columns: repeat(2, 2fr) !important;
+    }
+
+    .home-card-color{
+        max-width: 140px !important;
+        height: fit-content;
+        margin: 10px auto;
+    }
+
+    .back-home{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: small;
+    }
+
+    .or{
+        margin-left: auto;
+        margin-right: auto;
+        color: #444; 
+    }
+
+    .image-upload{
+        width: 80%;
+    }
+    p{
+        font-size: smaller;
+    }
+
+    .homepic{
+        width: 100% !important;
+        height: 100%;
+        gap: 1rem;
+        margin-top: -67px;
+        background: white;  
+    }
+
+    .spinner{
+        margin-left: 50% !important;
+        
+    }
+
+
+}
 @media screen and (min-width: 568px){
     .home__content{
         grid-template-columns: min-content 1fr 1fr;
@@ -1679,6 +1855,63 @@ color: #fff;
     .home__data{
         grid-column: initial;
     }
+
+    .cardhome{
+        width: 100% !important;
+        background-color: white;
+        margin: 10px;
+        margin-top: 70px;
+        color: #222;
+        overflow-x: hidden !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .grid{
+         gap: 1rem !important;
+        grid-template-columns: repeat(2, 2fr) !important;
+    }
+
+    .home-card-color{
+        max-width: 140px !important;
+        height: fit-content;
+        margin: 10px auto;
+    }
+
+    .back-home{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: small;
+    }
+
+    .or{
+        margin-left: auto;
+        margin-right: auto;
+        color: #444; 
+    }
+
+    .image-upload{
+        width: 80%;
+    }
+    p{
+        font-size: smaller;
+    }
+
+    .homepic{
+        width: 100% !important;
+        height: 100%;
+        gap: 1rem;
+        margin-top: -67px;
+        background: white;  
+    }
+
+    .spinner{
+        margin-left: 50% !important;
+        
+    }
+
 
     .home__img{
         order: 1;
@@ -1709,6 +1942,92 @@ color: #fff;
 
     body{
         margin: 0;
+    }
+
+    .cardhome{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 20px 20px rgba(161, 158, 158, 0.2);
+        /* padding: 40px; */
+        margin: 10px;
+        color: #222;
+        margin-top: 180px !important;
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid{
+         gap: 1.5rem !important;
+        grid-template-columns: repeat(3, 2fr) !important;
+    }
+    
+    h3{
+        font-size: large;
+    }
+    .home-card-color{
+        max-width: 300px !important;
+        height: fit-content;
+        margin: 10px auto;
+    }
+
+    .image-upload{
+        background-color: blue;
+        color: #fff;
+        width: 400px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* margin-top: 250px; */
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .camera{
+        margin-top: 20px;
+        color: #333; 
+    }
+    
+    
+    .or{
+        margin-left: 34%;
+        color: #444;
+    }
+
+    /* .cardnav{
+        background: #222;
+        height: 80px !important;
+        margin-top: -38px !important;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+    } */
+    
+    .back-home{
+        padding: 40px;
+        font-size: 20px;
+        color: rgb(0, 68, 255);
+        font-weight: bolder;
+        margin: 10px;
+        margin-top: 10px;
+    }
+    
+   
+
+    .homepic{
+        max-width: 100%;
+        height: 100%;
+        gap: 1rem;
+        margin-top: -67px;
+        background: url("../photos/exterior.jpg") center top/cover no-repeat;  
+    }
+
+    .spinner{
+        margin-left: 50% !important;
+        
     }
 
     .section{
@@ -1744,6 +2063,7 @@ color: #fff;
     .nav__list{
         display: flex;
         column-gap: 2rem;
+        margin-top: 35px;
     }
 
     .nav__menu{

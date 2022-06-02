@@ -112,7 +112,8 @@ const HomeCard = () => {
                 </div>
                 )}
                 <br/>
-                <h1 className="or">--------OR--------</h1>
+                <h1 className="or">-------OR-------</h1>
+                <br/>
                 <div className="image-upload">
                   <FaCamera size={40} className="camera"/>
                   <div className="textmsg">
